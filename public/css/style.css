@@ -1,0 +1,184 @@
+/*
+ * Main content
+ */
+body,
+.btn,
+.form-control,
+.dropdown-menu {
+    font-size: 12px;
+}
+
+.form-control {
+    height: 31px;
+}
+
+.breadcrumb {
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 60px 10px 10px;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+}
+
+.tr_bgcolor {
+    background: red;
+}
+
+.pagination {
+    margin: 0px;
+}
+
+.toolbar {
+    margin-bottom: 5px;
+}
+
+.inboxNum {
+    background: #ddd;
+    left: 15px;
+}
+
+.result {
+    font-size: 270px;
+}
+
+.result_cname {
+    font-size: 100px;
+}
+
+.result_sku {
+    font-size: 100px;
+}
+
+.inboxImage {
+    width: 650px;
+    height: 560px;
+}
+
+span.sign {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 12px;
+    margin-top: -10px;
+    color: #bfbfc1;
+}
+
+span.arrow {
+    border-style: solid;
+    border-width: 5px;
+    font-size: 0;
+    border-color: #000 transparent transparent transparent;
+    line-height: 0;
+    height: 0;
+    width: 0;
+    margin-top: -2px;
+}
+
+span.arrow.up {
+    border-color: transparent transparent #000 transparent;
+    margin-top: -7px;
+}
+
+th:not([data-sort=false]) {
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+th:hover:not([data-sort=false]) {
+    background: #efefef;
+}
+
+.ajaxinput {
+    margin-left: 5px;
+}
+
+.ajaxi {
+    margin-left: 3px;
+}
+
+.innercheckboxs {
+    margin-top: 10px !important;
+}
+
+.upimage {
+    margin-bottom: 5px
+}
+
+.create {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1;
+    color: #666 !important;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .8;
+    cursor: pointer;
+}
+
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+
+}
+
+.mailcontent {
+    height: 400px;
+}
+
+.table > tbody > tr.dark-info {
+    background-color: #c4e3f3;
+}
+
+.table > tbody > tr.dark-warning {
+    background-color: #faf2cc;
+}
+
+.table > tbody > tr.dark-success {
+    background-color: #d0e9c6;
+}
+
+.table > tbody > tr.dark-danger {
+    background-color: #ebcccc;
+}
+
+.tabhide {
+    display: none;
+}
+
+.searchItem {
+    height: 32px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.searchDiv {
+    padding: 5px;
+    margin: 2px 0 2px 0;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.btn {
+    margin-bottom: 2px;
+}
+
+.nav-title {
+    width: 330px;
+}
+
+.nav-li {
+    width: 160px;
+    float: left;
+    display: block;
+}

@@ -1,0 +1,117 @@
+/*Public CSS*/
+body{ margin:0px; padding:0px; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#000000;}
+a{ cursor:pointer;}
+a img{ border:0px;}
+a:link,a:visited{ color:#0066CC; text-decoration:none;}
+a:hover,a:active{ color:#CC0000; text-decoration:underline;}
+.clear{ clear:both;}
+td{word-wrap:break-word;word-break:break-all;}
+
+/*left_frame*/
+#left_frame_main{ padding-left:15px; padding-right:10px;}
+#left_frame_menu{ margin-left:20px; padding:0px;}
+#left_frame_menu li{ height:22px; line-height:22px;}
+
+#left_frame_bottom_bg{ position:absolute; bottom:0px; left:0px; background:url(../images/left_bottom_bg.jpg); width:180px; height:8px;}
+
+/*main_frame*/
+#main_frame_main{ margin:8px; position:relative;}
+.back_page{ position:absolute; right:0px; top:0px; background:#CC0000; padding:5px; width:50px; text-align:center;}
+.price{ font-size:18px; color:#CC0000;}
+
+/*products_input.php*/
+.input_box{ margin-left:auto; margin-right:auto; height:25px; width:510px;}
+.input_sku_code,.input_count,.input_reason{ float:left; height:28px; text-align:center; line-height:22px;}
+.input_sku_code{ padding:0px;}
+.input_count{ padding:0px;}
+.input_reason{ padding:0px;}
+
+.w210{ width:210px; height:25px; line-height:25px; font-size:12px;}
+.w80{ width:80px; height:25px; line-height:25px; font-size:12px;}
+.b_r_b,.b_b{border:#ffffff solid 0px; margin:0px; padding:0px;}
+
+.button_submit{ width:78px; height:39px; background:url(../images/xingzeng.jpg); border:0px; cursor:pointer;}
+.button_edit{ width:78px; height:39px; background:url(../images/xiugai.jpg); border:0px; cursor:pointer;}
+.button_back{ width:78px; height:39px; background:url(../images/fanhui.jpg); border:0px; cursor:pointer;}
+
+#sku_nm_cn_box{ position:relative; width:100%;}
+#sku_nm_cn{ position:absolute; right:-300px; top:-200px; width:480px; z-index:10; background:#FFFFFF; border:1px dotted #44B2E7;}
+#sku_nm_cn a{ display:block; height:22px; line-height:22px; cursor:pointer; padding:0 12px;}
+#sku_nm_cn a:hover{ background:#0000CC; color:#FFFFFF; text-decoration:none;}
+ 
+.a_button_bg{ background:url(../images/a_button_gb.jpg); display:block; width:80px; height:22px; text-align:center; line-height:22px;}
+
+.box_title_style{position:absolute; top:-12px; height:24px; line-height:24px; border:1px #44B2E7 dotted; text-align:center; padding:0 12px; background:#F1FDFE;}
+.box_content_style{border:1px #44B2E7 dotted; position:relative; margin-left:5px; margin-right:5px; padding:20px 10px 10px 10px;  background:#F1FDFE; margin-top:20px;}
+
+.orders_detail_box{ margin:5px;}
+.line_l{ border-left:#44B2E7 1px dotted;}
+.line_r{ border-right:#44B2E7 1px dotted;}
+.line_b{ border-bottom:#44B2E7 1px dotted;}
+
+#list_table td{ text-align:center;}
+#list_table input{ margin:0px; padding:0px;}
+.guahao_layer{ position:absolute; top:10px; left:100px; width:120px; height:95px;}
+
+.po_a_style{ display:block-inline; padding:2px 4px; background:#EDF5FE; border-right:#888888 1px solid; border-top:#ffffff 1px solid; margin-left:5px; border-left:#ffffff 1px solid; border-bottom:#888888 1px solid; text-decoration:none;}
+
+.box_general_style{border:1px #44B2E7 dotted; position:relative; margin-left:5px; margin-right:5px; padding:5px;  background:#F1FDFE; margin-top:6px;}
+
+.back_rz_box{ position:relative;}
+.bak_rz{ background:#ff9900; position:absolute; right:0px; bottom:0px; width:200px; height:100px; z-index:10; background:#FFFFFF; border:1px dotted #44B2E7;}
+
+
+.more_action_box{ position:relative; min-height:16px;}
+.new_box_for_lock_order{ position:absolute; right:0px; bottom:0px; width:300px; height:110PX; background:#eeeeee; border:8px #ffffff solid;}
+.miniBox{ border:#CCCCCC; background:#eeeeee; display:inline-block; padding:2px; margin-left:5px;}
+
+/*瀵煎叆搴撳瓨绛夊甫鏈塃XCEL棰勮鐣岄潰鐨凜SS*/
+.reViewBox{ border-left:#000000 1px dotted; border-top:1px #000000 dotted;}
+.reViewElement{ width:200px; height:20px; line-height:20px; font-size:14px; float:left; border-bottom:#000000 1px dotted; border-right:1px dotted #000000; text-align:center;}
+.reMind{ font-size:12px; color:#FF0000; font-weight:bold; width:400px; height:20px; line-height:20px; border-bottom:#000000 1px dotted; border-right:1px dotted #000000; text-align:left; padding-left:8px;}
+.failure{ color:#FF0000; font-weight:bold;}
+.success{ color:#009900; font-weight:bold;}
+
+.activeResultBox{ margin:5px; border:1px #CCCCCC dotted; padding:5px;}
+.errorReminderBox{ line-height:18px; color:#FFFFFF; background:#CC0000;}
+.successReminderBox{ line-height:18px; background:#EFFEEF;}
+
+/*妯℃嫙寮瑰嚭瀵硅瘽妗嗘晥鏋�*/
+.fullWindowBg{ background-color:rgba(0,0,0,0.6); background:#000\9; filter:alpha(opacity=60); position:absolute; top:0px; left:0px; z-index:100;}
+.fullWindowContentBox{position:absolute; z-index:101; background:#ffffff; color:#000000; padding:12px; overflow-y:auto;}
+.closeButton{ position:absolute; z-index:102; width:21px; height:21px; cursor:pointer; }
+
+
+.productsProcessStatusButton{ display:inline-block; padding:0 12px; height:25px; line-height:25px; text-align:center; border:1px solid #CCCCCC; background:#F6F6F6;}
+
+#MarketSaftyTip{ display:none;}
+#ReferenceId{ display:none;}
+#Footer{ display:none;}
+#Title{ display:none;}
+#Header{ display:none;}
+#ReplyBtn{ display:none;}
+
+.emailContent{ margin:8px; padding:5px; border:#000000 1px dotted; font-size:12px; font-family:Arial; background:#f6f6f6;}
+.emailContent pre{ word-break:break-all; }
+.modContentTextArea{ border:0px; background:#f6f6f6; height:100%;}
+
+.orders_time_button{ color:#FFFFFF; background:#666666; font-family:Arial; font-size:14px; font-weight:bold; cursor:pointer;}
+.orders_list_box_right{ border:#999999 dotted 1px;}
+.orders_list_box_right td{ padding:3px 1px 3px 1px;}
+
+pre {
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/*鍚勭被璁㈠崟鏂板鎴栦慨鏀规椂锛岀墿鍝佸垪琛ㄧ敤鍒扮殑鏍峰紡琛�*/
+.productsListSkuInput{font-size:10px; font-family:Arial, Helvetica, sans-serif; width:100px;}
+.productsListNameInput{width:160px;}
+.productsListCountInput{font-size:10px; font-family:Arial, Helvetica, sans-serif; width:40px;}
+.productsListPriceInput{font-size:10px; font-family:Arial, Helvetica, sans-serif; width:40px;}
+
+/*鍒犻櫎涓€琛岀墿鍝佹椂鐨勫垹闄ゆ寜閽牱寮�*/
+.deleteThisProductsLine{cursor:pointer; color:#FF0000; font-family:'瀹嬩綋'; font-size:14px; font-weight:bold;}
